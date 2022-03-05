@@ -1,0 +1,22 @@
+{
+  "name": "format-date-js",
+  "version": "1.0.3",
+  "description": "format date",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "prepublish": "webpack"
+  },
+  "keywords": [
+    "format date",
+    "tools"
+  ],
+  "author": "whjway",
+  "license": "ISC",
+  "repository": "https://github.com/whjway/format-date",
+  "devDependencies": {
+    "terser-webpack-plugin": "^5.3.1",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  }
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    ${require('raw-loader?esModule=false!./meta.html')}
+    <title>Search</title>
+    <!-- 23434324 -->
+    <script>
+        ${ require('raw-loader?esModule=false!!babel-loader!amfe-flexible') }
+    </script>
+    <!-- 配合HtmlWebpackExternalsPlugin使用 提取公共资源vue -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script> -->
+</head>
+
+<body>
+    <div id="app"></div>
+</body>
+
+</html>

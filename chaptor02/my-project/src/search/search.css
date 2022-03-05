@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "fontAwesome";
+  src: url("./fonts/FontAwesome.otf");
+}
+div {
+  font-family: serif;
+  font-size: 10px;
+}
+.search {
+  justify-content: center;
+
+  color: #f00;
+  font-family: "fontAwesome";
+}
